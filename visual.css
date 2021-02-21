@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url(imagenes/favicon.ico); 
+}
+
+header, .main, footer{
+	width: 90%;
+	margin: 1000px;
+	margin: 20px auto;
+}
+header nav{
+	background: rgba(10,80,242,0.5);
+	overflow: hidden;
+}
+header nav ul {
+
+	list-style:none;
+}
+header nav ul li {
+	float: left;
+	padding: 10px 20px;
+	display: block;
+	color: #93D7F2;
+	text-decoration: none;
+}
+header nav ul li a {
+	padding: 10px 20px;
+	display: block;
+	color: #93D7F2;
+	text-decoration: none;
+}
+header nav ul li a:hover{
+	background: #75ACEC;
+}
+.main .articles {
+	font-size: 20px;
+	color:#FCF9FF ;
+	width: 65%;
+	margin-right: 1.5%;
+	float: left;
+	background: transparent;
+}
+.main .articles {
+	padding: 20px;
+	background: transparent;
+	margin-bottom:20px; 
+}
+aside {
+	font-size: 20px;
+	color:#FCF9FF ;
+	width: 30%;
+	background: transparent;
+	float: left;
+	padding: 20px;
+	box-sizing: border-box;
+}
+footer {
+	font-size: 40px;
+	background: transparent;
+	color: black;
+	clear: both;
+	padding: 10px 10px;
+	text-align: center;
+}
+h1 {
+	text-align: center;
+	color:#0A50F2 ;
+	font-size: 50px;
+}
+h2 {
+	color:#0A50F2; 
+}
+h3 {
+	color:#0A50F2;
+}
